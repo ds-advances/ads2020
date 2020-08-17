@@ -1,20 +1,27 @@
-# Site settings
-title: "Advances in Data Science, 2020"
-email: "dsi.enquiries@manchester.ac.uk"
+author:
+  name: University of Manchester Data Science Institute
+  email: "dsi.enquiries@manchester.ac.uk"
 description: >
-  A workshop showcasing recent advances in data science methodology and applications.
-baseurl: "" # the subpath of your site, e.g. /blog/
+  A 2-day workshop showcasing recent advances in data science methodology and applications.
+baseurl: "/ads2020" # the subpath of your site, e.g. /blog/
 url: "http://ds-advances.github.io" # the base hostname & protocol for your site
-twitter_username: idsai_uom
+twitter_username: dsi_uom
 github_username: ds-advances
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: ads
+
+ghub:
+  edit: true
+  repository: ads2020
 
 previous_meeting:
- url: /ds-advances2019
+  url: /ads2019
 
-github:
-  edit: true
-  repository: ds-advances.github.io
-
+  
 youtube:
   height: 315
   width: 560
@@ -41,9 +48,13 @@ conference:
   hide_tentative: true
   hosts:  
   
-  room: 
-# venue: Hilton Manchester Deansgate
-# location: Manchester, UK
+  venue: Online
+  venue_url: 
+  location: Manchester, UK
+  short_name : ADS
+  instance: 4th
+  styling: Workshop on
+  full_name: Advances in Data Science
   name: Advances in Data Science
   year: 2020
   month: June
@@ -69,13 +80,17 @@ conference:
 #  - name: Autotrader
 #    url: "https://engineering.autotrader.co.uk/"
   organizers:
-  - name: Magnus Rattray
+  - given: Magnus
+    family: Rattray
     url: "https://www.research.manchester.ac.uk/portal/Magnus.Rattray.html"
-  - name: Mauricio Alvarez
+  - given: Mauricio
+    family: Alvarez
     url: "https://www.sheffield.ac.uk/dcs/people/academic/malvarez"
-  - name: Sophia Ananiadou
+  - given: Sophia
+    family: Ananiadou
     url: "https://www.research.manchester.ac.uk/portal/sophia.ananiadou.html"
-  - name: Danielle Belgrave
+  - given: Danielle
+    family: Belgrave
     url: "https://www.microsoft.com/en-us/research/people/dabelgra/"
 
 map:
