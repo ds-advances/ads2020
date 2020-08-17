@@ -79,19 +79,21 @@ conference:
 #    url: "https://www.appleyardlees.com/"
 #  - name: Autotrader
 #    url: "https://engineering.autotrader.co.uk/"
-  organizers:
-  - given: Magnus
-    family: Rattray
-    url: "https://www.research.manchester.ac.uk/portal/Magnus.Rattray.html"
-  - given: Mauricio
-    family: Alvarez
-    url: "https://www.sheffield.ac.uk/dcs/people/academic/malvarez"
-  - given: Sophia
-    family: Ananiadou
-    url: "https://www.research.manchester.ac.uk/portal/sophia.ananiadou.html"
-  - given: Danielle
-    family: Belgrave
-    url: "https://www.microsoft.com/en-us/research/people/dabelgra/"
+  chairs:
+  - type: Organizers
+    people:
+    - given: Magnus
+      family: Rattray
+      url: "https://www.research.manchester.ac.uk/portal/Magnus.Rattray.html"
+    - given: Mauricio
+      family: Alvarez
+      url: "https://www.sheffield.ac.uk/dcs/people/academic/malvarez"
+    - given: Sophia
+      family: Ananiadou
+      url: "https://www.research.manchester.ac.uk/portal/sophia.ananiadou.html"
+    - given: Danielle
+      family: Belgrave
+      url: "https://www.microsoft.com/en-us/research/people/dabelgra/"
 
 map:
   show: False
